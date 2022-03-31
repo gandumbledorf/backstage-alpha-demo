@@ -4,7 +4,9 @@ metadata:
   name: backstage-alpha-demo
   annotations:
     github.com/project-slug: gandumbledorf/backstage-alpha-demo
+  tags:
+    - markdown
 spec:
-  type: other
-  lifecycle: unknown
-  owner: team-a
+  type: techdocs
+  lifecycle: experimental
+  owner: Alexander Boyd
