@@ -4,6 +4,7 @@ metadata:
   name: backstage-alpha-demo
   annotations:
     github.com/project-slug: gandumbledorf/backstage-alpha-demo
+    backstage.io/techdocs-ref: dir:.
   tags:
     - markdown
 spec:
