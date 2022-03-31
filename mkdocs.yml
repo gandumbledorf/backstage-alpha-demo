@@ -1,0 +1,4 @@
+site_name: 'backstage-alpha-docs'
+
+nav:
+  - Home: 'index.md'
