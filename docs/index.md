@@ -56,6 +56,14 @@ CMD ["echo", "hello world!"]
 
 Okay, now the real test. Can we render mermaid diagrams? (These are just copy-pasted from [their website](https://mermaid-js.github.io/mermaid/#/))
 
+From the mkdocs plugin:
+```mermaid
+graph TD
+A[Client] --> B[Load Balancer]
+B --> C[Server01]
+B --> D[Server02]
+```
+
 Flow chart:
 ```mermaid
 graph TD;
