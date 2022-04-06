@@ -5,7 +5,6 @@ nav:
 
 plugins:
   - techdocs-core
-  - mermaid2
 
-extra_javascript:
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
+markdown_extensions:
+  - markdown_inline_mermaid
