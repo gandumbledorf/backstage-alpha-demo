@@ -5,8 +5,7 @@ nav:
 
 plugins:
   - techdocs-core
-  - mermaid2:
-      version: 8.14.0
+  - mermaid2
 
 extra_javascript:
-  - https://unpkg.com/mermaid@8.14.0/dist/mermaid.min.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
