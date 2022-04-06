@@ -49,7 +49,7 @@ FROM FROM node:16-buster-slim as base
 RUN apt-get update -y \
  && apt-get upgrade -y
  
-CMD ['echo', 'hello world!']
+CMD ["echo", "hello world!"]
 ```
 
 
