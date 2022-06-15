@@ -135,7 +135,7 @@ Future task2               :         des4, after des3, 5d
 
 @startjson
 {
-    "User Template Input": {
+    "Catalog Info": {
         "Component Name": "backstage-alpha-demo",
         "Backstage Owner": "gandumbledorf",
         "Github Code Owner": "gandumbledorf",
