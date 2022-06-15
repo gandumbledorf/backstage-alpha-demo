@@ -14,4 +14,4 @@ metadata:
 spec:
   type: techdocs
   lifecycle: experimental
-  owner: user:default/gandumbledorf
+  owner: user:gandumbledorf
