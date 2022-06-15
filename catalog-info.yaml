@@ -7,6 +7,10 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - markdown
+  links:
+    - url: https://backstage.io/docs/overview/what-is-backstage
+      title: About Backstage
+      icon: article
 spec:
   type: techdocs
   lifecycle: experimental
