@@ -133,3 +133,17 @@ Future task               :         des3, after des2, 5d
 Future task2               :         des4, after des3, 5d
 ```
 
+@startjson
+{
+    "User Template Input": {
+        "Component Name": "backstage-alpha-demo",
+        "Backstage Owner": "gandumbledorf",
+        "Github Code Owner": "gandumbledorf",
+        "Container Artifact Registry": "example.repo.org",
+        "Container Registry Folder": "docker"
+    },
+    "Backstage Tags": [
+        "markdown"
+    ] 
+}
+@endjson
