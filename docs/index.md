@@ -2,6 +2,37 @@
 
 Now that we _finally_ have an instance of backstage working with the techdocs plugin, I'll update this with some lorem ipsum, and other random things.
 
+## Backstage Default provided icons
+
+Some parts of the `catalog-info.yaml` may accept an icon string.
+Here's a list of the default icons that Backstage supports out of the box (from the actual code):
+
+```typescript
+declare type AppIcons = {
+    'kind:api': IconComponent;
+    'kind:component': IconComponent;
+    'kind:domain': IconComponent;
+    'kind:group': IconComponent;
+    'kind:location': IconComponent;
+    'kind:system': IconComponent;
+    'kind:user': IconComponent;
+    brokenImage: IconComponent;
+    catalog: IconComponent;
+    chat: IconComponent;
+    dashboard: IconComponent;
+    docs: IconComponent;
+    email: IconComponent;
+    github: IconComponent;
+    group: IconComponent;
+    help: IconComponent;
+    scaffolder: IconComponent;
+    search: IconComponent;
+    techdocs: IconComponent;
+    user: IconComponent;
+    warning: IconComponent;
+};
+```
+
 ## How we finally got it working
 
 I believe the core issue with previous attempts to set this up was with file permissions. The techdocs are generated locally on the container using the `mkdocs` command. The backend spawns a child process to invoke the command, then copies all the files to a location where they can be statically served. But, when we look at the temporary directory where the files are initially created, we see strange `dwrx------` permissions. 
