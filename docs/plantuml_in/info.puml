@@ -1,0 +1,14 @@
+@startjson
+{
+    "Catalog Info": {
+        "Component Name": "backstage-alpha-demo",
+        "Backstage Owner": "gandumbledorf",
+        "Github Code Owner": "gandumbledorf",
+        "Container Artifact Registry": "example.repo.org",
+        "Container Registry Folder": "docker"
+    },
+    "Backstage Tags": [
+        "markdown"
+    ] 
+}
+@endjson
