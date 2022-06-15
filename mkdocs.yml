@@ -5,6 +5,13 @@ nav:
 
 plugins:
   - techdocs-core
+  - build_plantuml:
+      render: 'local' # or "local" for local rendering
+      bin_path: '/usr/local/bin/plantuml' # ignored when render: server
+      server: 'http://www.plantuml.com/plantuml' # offical plantuml server
+      disable_ssl_certificate_validation: true # for self-signed and invalid certs
+      output_format: 'png' # or "png"
+      diagram_root: 'docs/' # should reside under docs_dir
 
 markdown_extensions:
   - markdown_inline_mermaid
