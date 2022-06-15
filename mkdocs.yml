@@ -6,14 +6,15 @@ nav:
 plugins:
   - techdocs-core
   - build_plantuml:
-      render: 'server' # or "local" for local rendering
-      bin_path: '/usr/local/bin/plantuml' # ignored when render: server
-      server: 'http://www.plantuml.com/plantuml' # offical plantuml server
-      disable_ssl_certificate_validation: true # for self-signed and invalid certs
-      output_format: 'png' # or "png"
-      diagram_root: 'docs/' # should reside under docs_dir
-      output_folder: 'plantuml_out'
-      input_folder: 'plantuml_in'
+      render: "server"
+      bin_path: "/usr/local/bin/plantuml"
+      server: "http://www.plantuml.com/plantuml"
+      disable_ssl_certificate_validation: true
+      output_format: "svg"
+      diagram_root: "docs/diagrams"
+      output_folder: "out"
+      input_folder: "src"
+      theme_enabled: false
 
 markdown_extensions:
   - markdown_inline_mermaid

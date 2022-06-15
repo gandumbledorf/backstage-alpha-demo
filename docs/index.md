@@ -133,4 +133,4 @@ Future task               :         des3, after des2, 5d
 Future task2               :         des4, after des3, 5d
 ```
 
-![Sample PlantUML Diagram](./plantuml_out/info.png "PlantUML")
+![sequence](diagrams/out/sequence.svg)
