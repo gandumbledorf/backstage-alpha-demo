@@ -7,6 +7,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - markdown
+    - public
   links:
     - url: https://backstage.io/docs/overview/what-is-backstage
       title: About Backstage
